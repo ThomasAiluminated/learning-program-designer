@@ -2,6 +2,8 @@
 
 **Een Claude-skill die een opleidingsvraag omzet in een programma dat verandert wat mensen op het werk doen, niet alleen wat ze weten aan het eind van de dag.**
 
+🇬🇧 [English version](README.en.md) · 📄 [Voorbeelden](examples/)
+
 Je beschrijft de vraag ("onze teamleiders geven nauwelijks feedback, ontwerp een opleiding van max. 1 dag") en krijgt een volledig ontwerp terug: van behoefte en leerdoelen tot sessieplannen, transfer naar de werkvloer en evaluatie.
 
 *English summary: a Claude skill that designs training programs, workshops, courses and learning journeys from need to evaluation: performance need, measurable objectives, a blended session-by-session plan, workplace transfer and Kirkpatrick-based evaluation. It works in Dutch, French and English.*
@@ -34,10 +36,14 @@ Voor grotere programma's kan de skill het plan omzetten naar een document, een p
 
 Voor L&D- en HR-professionals, opleidingsverantwoordelijken, docenten en consultants die opleidingen, workshops, onboardingtrajecten, nascholingen of leertrajecten ontwerpen.
 
-Deze skill hoort bij een reeks voor onderwijs en L&D:
-- [Rubric Builder](https://github.com/ThomasAiluminated/rubric-builder): beoordelingsrubrics
-- [Assessment Item Writer](https://github.com/ThomasAiluminated/assessment-item-writer): toets- en examenvragen
+Deze skill hoort bij **[Claude Skills for Education](https://github.com/ThomasAiluminated/claude-skills-for-education)**, een open reeks voor onderwijs en L&D:
 - [Edu Prompt Coach](https://github.com/ThomasAiluminated/edu-prompt-coach): prompts voor leerkrachten, met uitleg waarom ze werken
+- [Lesson Designer](https://github.com/ThomasAiluminated/lesson-designer): lessen ontwerpen van leerdoel tot exit-check
+- [Rubric Builder](https://github.com/ThomasAiluminated/rubric-builder): beoordelingsrubrics met observeerbare niveaus
+- [Assessment Item Writer](https://github.com/ThomasAiluminated/assessment-item-writer): toets- en examenvragen met sleutel en feedback
+- [Feedback Writer](https://github.com/ThomasAiluminated/feedback-writer): specifieke, haalbare feedback op leerlingenwerk
+- [Inclusive Lesson Adapter](https://github.com/ThomasAiluminated/inclusive-lesson-adapter): lesmateriaal toegankelijk maken met UDL
+- [Prompt Architect](https://github.com/ThomasAiluminated/prompt-architect): een ruwe vraag omzetten in een sterke prompt voor Claude
 
 ## Installeren
 
@@ -55,6 +61,7 @@ Daarna volstaat een gewone vraag, zoals *"ontwerp een onboardingtraject van drie
 ```
 learning-program-designer/
 └── SKILL.md                       # de volledige instructies van de skill
+examples/                 # voorbeelden van input en output
 learning-program-designer.skill    # installeerbaar pakket
 ```
 
